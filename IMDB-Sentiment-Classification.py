@@ -183,18 +183,6 @@ else:
 
 '''
     Final Conclusion:
-    After training and evaluating both models — LinearSVC and MultinomialNB — 
-    we observed that both performed well on the balanced IMDB dataset (positive vs negative reviews).
-
-    However, LinearSVC achieved slightly higher overall accuracy and better generalization on unseen data, 
-    while MultinomialNB was faster but more sensitive to noise and vocabulary variations.
-
-    The TF-IDF representation effectively reduced the influence of common words and improved classification quality.
-    Overall, the combination of TF-IDF + LinearSVC can be considered the best-performing pipeline for this dataset.
-
-    Future improvements could include:
-    - Applying GridSearchCV to fine-tune model parameters
-    - Performing deeper text preprocessing (lemmatization, punctuation removal)
-    - Testing advanced models such as LogisticRegression or ensemble methods (e.g., AdaBoost, Gradient Boosting)
-    - Expanding the dataset or using pre-trained embeddings (Word2Vec, GloVe, or BERT)
+    The *LinearSVC + TF-IDF* pipeline achieved the most stable and accurate performance.
+    This project demonstrates a complete NLP workflow — from raw text to sentiment prediction — and provides a foundation for future deep learning sentiment models.
 '''
