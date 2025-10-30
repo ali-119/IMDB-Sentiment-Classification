@@ -5,13 +5,13 @@ Determine the IMDB comment class type
 This project focuses on predicting **movie review sentiments** — determining whether a review is *positive* or *negative*.
 It demonstrates how text data can be transformed into numerical vectors and classified using machine learning models for **Natural Language Processing (NLP)** tasks.
 
------
+------
 
 # Dataset
 - **Name:** IMDB Movie Reviews Dataset
-- **Source:** Kaggle Dataset
+- **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 - **Size:** 50,000 records (balanced: 25,000 positive and 25,000 negative)
-- **Content:** Each record includes a movie review (review) and its sentiment label (positive or negative).
+- **Content:** Each record includes a movie review (review) and its sentiment label (*positive* or *negative*).
 
 -----
 
@@ -21,8 +21,6 @@ It demonstrates how text data can be transformed into numerical vectors and clas
 - Checked for missing or empty reviews
 - Verified class balance between positive and negative samples
 - Sampled 4% (≈1,000 reviews) of the dataset for faster model comparison
-
------
 
 ## Exploratory Text Analysis
 - Used CountVectorizer to extract the top 20 most frequent non-stop words for each sentiment
@@ -85,7 +83,7 @@ Run all cells to train and evaluate the model.
 -----
 
 # Final Conclusion
-The LinearSVC + TF-IDF pipeline achieved the most stable and accurate performance.
+The *LinearSVC + TF-IDF* pipeline achieved the most stable and accurate performance.
 This project demonstrates a complete NLP workflow — from raw text to sentiment prediction — and provides a foundation for future deep learning sentiment models.
 
 -----
