@@ -81,10 +81,15 @@ jupyter notebook notebooks/IMDB_Sentiment_Classification.ipynb
 Run all cells to train and evaluate the model.
 
 -----
+# Final Conclusion:
+After training and evaluating both models — *LinearSVC and MultinomialNB* — 
+we observed that both performed well on the balanced IMDB dataset (*positive* vs *negative* reviews).
 
-# Final Conclusion
-The *LinearSVC + TF-IDF* pipeline achieved the most stable and accurate performance.
-This project demonstrates a complete NLP workflow — from raw text to sentiment prediction — and provides a foundation for future deep learning sentiment models.
+However, LinearSVC achieved slightly higher overall accuracy and better generalization on unseen data, 
+while MultinomialNB was faster but more sensitive to noise and vocabulary variations.
+
+The TF-IDF representation effectively reduced the influence of common words and improved classification quality.
+Overall, the combination of *TF-IDF + LinearSVC* can be considered the best-performing pipeline for this dataset.
 
 -----
 
