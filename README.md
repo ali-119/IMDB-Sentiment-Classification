@@ -1,5 +1,5 @@
 # IMDB Sentiment Classification Project
-Determine the IMDB comment class type
+A machine learning project for classifying IMDB movie reviews into positive or negative sentiments using TF-IDF and LinearSVC.
 
 # Overview
 This project focuses on predicting **movie review sentiments** — determining whether a review is *positive* or *negative*.
